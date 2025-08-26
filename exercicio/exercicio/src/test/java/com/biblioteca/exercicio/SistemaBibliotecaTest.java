@@ -43,6 +43,28 @@ public void testeCadastroComSenhaMuitoCurta() {
     assertFalse(resultado, "O sistema não deveria aceitar senhas com menos de 6 caracteres.");
 }
 
- }
+    @Test
+    public void testeCadastroComSenhaNoLimiteMinimo() {
+        SistemaBiblioteca sistema = new SistemaBiblioteca();
+        //  Tenta cadastrar com uma senha que tem EXATAMENTE 6 caracteres.
+        boolean resultado = sistema.cadastrarUsuario("Mariana", "mariana@email.com", "123456");
+        assertTrue(resultado, "Uma senha com 6 caracteres deveria ser aceita.");
+    }
+
+    @Test
+    public void testeCadastroComEmailInvalidoESenhaCurtaDeveFalhar() {
+        SistemaBiblioteca sistema = new SistemaBiblioteca();
+        // Ação: Tenta cadastrar com um e-mail sem "@" E uma senha curta.
+        boolean resultado = sistema.cadastrarUsuario("Jorge", "jorge.email.com", "123");
+
+        // Verificação: O cadastro deve falhar.
+        // O importante aqui é que o sistema não quebre e retorne 'false' corretamente.
+        assertFalse(resultado, "O cadastro deveria falhar por ter múltiplos erros.");
+    }
+}
+
+
+
+
 
 
