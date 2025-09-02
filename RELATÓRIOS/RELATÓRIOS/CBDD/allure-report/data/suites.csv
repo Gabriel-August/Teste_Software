@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Testa soma de dois números","0","testeSoma()","","Tue Sep 02 15:39:54 BRT 2025","passed","Tue Sep 02 15:39:54 BRT 2025","","com.exemplo.calculadora.CalculadoraTest","com.exemplo.calculadora.CalculadoraTest","testeSoma"
+"Testa a divisão por zero, que deve lançar uma exceção","0","testeDividirPorZero()","","Tue Sep 02 15:39:54 BRT 2025","passed","Tue Sep 02 15:39:54 BRT 2025","","com.exemplo.calculadora.CalculadoraTest","com.exemplo.calculadora.CalculadoraTest","testeDividirPorZero"
+"Testa a multiplicação de dois números","0","testeMultiplicar()","","Tue Sep 02 15:39:54 BRT 2025","passed","Tue Sep 02 15:39:54 BRT 2025","","com.exemplo.calculadora.CalculadoraTest","com.exemplo.calculadora.CalculadoraTest","testeMultiplicar"
+"Testa  subtração de sois valores","27","testeSubtrair()","","Tue Sep 02 15:39:54 BRT 2025","passed","Tue Sep 02 15:39:54 BRT 2025","","com.exemplo.calculadora.CalculadoraTest","com.exemplo.calculadora.CalculadoraTest","testeSubtrair"
+"Testa divisão de dois números","0","testeDivisao()","","Tue Sep 02 15:39:54 BRT 2025","passed","Tue Sep 02 15:39:54 BRT 2025","","com.exemplo.calculadora.CalculadoraTest","com.exemplo.calculadora.CalculadoraTest","testeDivisao"
